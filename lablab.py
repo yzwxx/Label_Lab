@@ -354,7 +354,7 @@ class MyMainWindow(QtGui.QMainWindow):
 		icon_path = join(getcwd(),'icon.png')
 		self.setWindowIcon(QtGui.QIcon(icon_path))
 		self.setGeometry(300, 300, 700, 500)
-		self.setWindowTitle('imgLab')
+		self.setWindowTitle('Label_Lab')
 		self.center()
 		self.show() 
 
